@@ -1,0 +1,43 @@
+#custom-input {
+  height: 45px;
+  border: 1px !important;
+//  border-color: rgba(247, 13, 13, 0.959) !important;
+//  border-radius: 4px !important;
+//  border-style: solid !important;
+
+  background: #9F9F9F !important;
+  box-shadow: 2px 2px 19px rgba(0, 0, 0, 0.25);
+  border-radius: 37px;
+  display: flex;
+  justify-content: center;
+}
+
+#custom-input fieldset {
+  border: 0px !important;
+  color: #000;
+}
+
+.menu-item {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .logo {
+    margin-right: 10px;
+    margin-left: -5px;
+  }
+}
+
+.MuiMenu-list {
+  background: black !important;
+  margin-top: 55px !important;
+}
+
+.MuiSelect-select:focus {
+    background-color: #0000 !important;
+}
+
+.MuiPaper-elevation8 {
+  box-shadow: none !important;
+}
